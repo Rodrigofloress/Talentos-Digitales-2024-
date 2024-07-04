@@ -30,7 +30,7 @@
       <button type="button" class="btn btn-secondary btn-block" style="border: none; border-radius: 5px; padding: 10px;">Cancelar</button>
     </form>
     <div class="text-center" style="margin-top: 20px;">
-      <p style="color: #343a40;">¿Ya tenes Usuario? <a href="<?php echo base_url('ingresar') ?>" style="color: #007bff;">Ingresar</a></p>
+      <p style="color: #343a40;">¿Ya tenés tu usuario? <a href="<?php echo base_url('ingresar') ?>" style="color: #007bff;">Ingresar</a></p>
     </div>
   </div>
 
