@@ -1,5 +1,4 @@
 <!-- carousel --> 
-
 <div id="carouselExampleIndicators" class="carousel slide ">
  
   <div class="carousel-indicators">

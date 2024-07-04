@@ -1,4 +1,4 @@
-<div class="form_ingreso" style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f8f9fa;">
+<div class="form_ingreso " style="display: flex; justify-content: center; align-items: center; height: 80vh; background-color: #f8f9fa;">
     <div class="card" style="width: 400px; padding: 40px;">
       <h3 class="card-title text-center" style="color: #343a40; margin-bottom: 20px;">Iniciar Sesión</h3>
       <form>
