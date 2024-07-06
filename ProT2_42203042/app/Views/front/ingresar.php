@@ -1,5 +1,5 @@
-<div class="form_ingreso " style="display: flex; justify-content: center; align-items: center; height: 80vh; background-color: #f8f9fa;">
-    <div class="card" style="width: 400px; padding: 40px;">
+<div class="form_ingreso " style="display: flex; justify-content: center; align-items: center; height: 80vh; background-color: #f8f9fa; background: url('assets/img/loginbg.jpg');">
+    <div class="card" style="width: 400px; padding: 40px; ">
       <h3 class="card-title text-center" style="color: #343a40; margin-bottom: 20px;">Iniciar Sesión</h3>
       <form>
         <div class="form-group" style="margin-bottom: 15px;">
@@ -19,4 +19,4 @@
       </div>
     </div>
 
-  </div>
+  </div> 

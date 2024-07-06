@@ -1,5 +1,5 @@
 
-     <footer style="background-color: #000; color: #fff; padding: 20px;">
+<footer style="background-color: #000; color: #fff; padding: 20px;">
   <div class="container">
     <div class="row">
       <div class="col-md-4">

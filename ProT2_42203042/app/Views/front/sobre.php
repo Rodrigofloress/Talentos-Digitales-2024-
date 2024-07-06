@@ -1,5 +1,5 @@
 
-<div class="presentacion" style="font-family: Arial, sans-serif; background-color: #f8f9fa; padding: 20px; padding-top: 30px;">
+<div class="presentacion" style="font-family: Arial, sans-serif; background-color: #f8f9fa; padding: 20px; padding-top: 30px; background: url('assets/img/loginbg.jpg');">
   <div class="container">
     <div class="text-center mb-5">
       <a href="<?php echo base_url('principal')?>">
@@ -8,7 +8,7 @@
     </div>
 
     <div class="card mb-5">
-      <div class="card-body">
+      <div class="card-body text-center">
         <p class="card-text">Bienvenidos a la presentación de M-IA, una empresa dedicada a revolucionar el mundo de la tecnología portátil con nuestras netbooks y notebooks de alta calidad. Nuestra meta es ofrecer soluciones tecnológicas innovadoras que se adapten a las necesidades de nuestros clientes, desde estudiantes hasta profesionales.</p>
       </div>
     </div>
@@ -27,19 +27,19 @@
     </div>
 
     <div class="card mb-5">
-      <div class="card-body">
+      <div class="card-body text-center">
         <p class="card-text">Nuestro objetivo es proporcionar a nuestros clientes las herramientas necesarias para mejorar su productividad, creatividad y conectividad. Creemos en el poder de la tecnología para transformar vidas y estamos comprometidos a hacer que esta sea accesible para todos.</p>
       </div>
     </div>
 
     <div class="card mb-5">
-      <div class="card-body">
+      <div class="card-body text-center">
         <p class="card-text">Nuestra misión es diseñar, desarrollar y distribuir dispositivos portátiles innovadores que ofrezcan un rendimiento superior, una experiencia de usuario excepcional y un valor incomparable. Buscamos empoderar a nuestros clientes con tecnología que les permita alcanzar sus metas y sueños.</p>
       </div>
     </div>
 
     <div class="card mb-5">
-      <div class="card-body">
+      <div class="card-body text-center">
         <p class="card-text">Nuestra visión es ser reconocidos globalmente como la marca líder en tecnología portátil, destacándonos por nuestra innovación, calidad y compromiso con la satisfacción del cliente. Aspiramos a estar en la vanguardia de la revolución tecnológica, ofreciendo soluciones que anticipen las necesidades del futuro.</p>
       </div>
     </div>
@@ -99,7 +99,7 @@
     </div>
 
     <div class="card mb-5">
-      <div class="card-body">
+      <div class="card-body text-center">
         <h4 class="card-title" >Testimonios</h4>
         <blockquote class="blockquote">
           <p class="mb-0">"Las notebooks de M-IA han transformado la manera en que trabajo. Son rápidas, confiables y perfectas para mis necesidades diarias."</p>
@@ -134,8 +134,15 @@
       </div>
     </div>
 
-    <div class="text-center">
-      <p>Gracias por su atención. En M-IA, estamos comprometidos a ofrecer la mejor tecnología portátil para satisfacer y superar tus expectativas. ¡Únete a nosotros y sé parte de la revolución tecnológica!</p>
+    <div class="card mb-5">
+      <div class="card-body text-center">
+        
+      <p >Gracias por su atención. En M-IA, estamos comprometidos a ofrecer la mejor tecnología portátil para satisfacer y superar tus expectativas. ¡Únete a nosotros y sé parte de la revolución tecnológica!</p>
+      </div>
+    </div> 
+
+
+    <div class="text-center text-white">
     </div>
   </div>
 </div>

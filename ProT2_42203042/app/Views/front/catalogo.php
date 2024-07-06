@@ -1,4 +1,5 @@
-<div class="catalogo_box container mt-5 mb-5 "  >
+<div class="boxes" style="background: url('assets/img/loginbg.jpg');">
+<div class="catalogo_box container mt-5 pb-5 "  >
     <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-5">
       <div class="col">
         <div class="box card h-100" style="overflow: hidden; position: relative; transition: transform 0.3s ease-in-out; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -202,4 +203,6 @@
       </div>
 
     </div>
+  </div>
+
   </div>
