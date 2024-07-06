@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>M-IA</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/img/icon.png" rel="website icon"  type="png">
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </head>
   <header>
   </header>
-<body class="  " style=" padding-top: 145px; background-color: #f8f9fa;">
+<body class="body">

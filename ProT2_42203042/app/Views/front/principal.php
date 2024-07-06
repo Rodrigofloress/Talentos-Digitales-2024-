@@ -8,7 +8,7 @@
   
   <div class="carousel-inner">
     
-    <div class="carousel-item active" style="height:500px; ">
+    <div class="carousel-item active" style="height:450px;">
       <img src="assets/img/QS.jpg" class="d-block w-100"  height="100%"  alt="...">
         <div class="carousel-caption top-0 mt-4">
           <h2>SOMOS M-IA</h2>
@@ -21,7 +21,7 @@
            </div>
     </div>
 
-    <div class="carousel-item" style="height:500px;">
+    <div class="carousel-item" style="height:450px;">
       <img src="assets/img/AS.jpg" class="d-block w-100" height="100%"  alt="...">
      
         <div class="carousel-caption top-0 mt-4">
@@ -32,7 +32,7 @@
              </a>
             </div> 
            </div>
-    </div>
+      </div>
 
     
    </div>
@@ -46,4 +46,4 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div> 
