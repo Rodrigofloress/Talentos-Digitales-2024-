@@ -42,17 +42,10 @@ class Home extends BaseController
 
 
     /* -----------mi CRUD------------------------------------- */
-    public function listado()
-    {
-        $data['titulo'] = 'Gestión de Usuarios';
-        echo view('front/head_view', $data);
-        echo view('front/navbar_view');
-        echo view('back/usuario/listado');
-        echo view('front/footer_view');
-    }
+
     public function actualizar()
     {
-        $data['titulo'] = 'Editar Usuarios';
+        $data['titulo'] = 'editar usuario';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('back/usuario/actualizar');

@@ -12,7 +12,7 @@ $routes->get('ingreso', 'Home::ingreso');
 $routes->get('registro', 'Home::registro');
 $routes->get('sobre', 'Home::sobre');
 /* mi crud */
-$routes->get('listado', 'Home::listado');
+$routes->get('listado', 'usuario_controller::listado');
 $routes->get('actualizar', 'Home::actualizar');
 
 /* rutas del registro de usuario */
@@ -26,9 +26,9 @@ $routes->get('/panel', 'panel_controller::index', ['filter' => 'auth']);
 $routes->get('/logout', 'login_controller::logout');
 
 /* rutas del crud */
-$routes->get('/listado', 'CrudController::create');
-$routes->post('/crear', 'CrudController::formValidation');
-$routes->get('/eliminar/(:num)', 'CrudController::eliminar/$1');
+$routes->get('/listado', 'usuario_controller::createe');
+$routes->post('/crear', 'usuario_controller::formValidationn');
+$routes->get('/eliminar/(:num)', 'usuario_controller::eliminar/$1');
 
-$routes->post('actualizar/(:num)', 'CrudController::actualizar/$1');
-$routes->get('editar/(:num)', 'CrudController::editar/$1');
+$routes->post('actualizar', 'usuario_controller::actualizar');
+$routes->get('/editar/(:num)', 'usuario_controller::editar/$1');

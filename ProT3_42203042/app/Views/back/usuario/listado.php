@@ -116,34 +116,32 @@
             </tr>
           </thead>
           <tbody>
-            <?php
-            include "app/Config/conexionCrud.php";
-            $sql = $conexion->query("SELECT * FROM usuarios");
-            if ($sql->num_rows > 0) {
-              while ($datos = $sql->fetch_object()) {
-            ?>
+            <?php if (!empty($usuarios) && is_array($usuarios)) : ?>
+              <?php foreach ($usuarios as $usuario) : ?>
                 <tr>
-                  <td><?php echo $datos->nombre ?></td>
-                  <td><?php echo $datos->apellido ?></td>
-                  <td><?php echo $datos->email ?></td>
-                  <td><?php echo $datos->telefono ?></td>
-                  <td><?php echo $datos->usuario ?></td>
-                  <td><?php echo $datos->pass ?></td>
-                  <td><?php echo $datos->perfil_id ?></td>
-                  <td><?php echo $datos->baja ?></td>
+                  <td><?= esc ($usuario['nombre']) ?></td>
+                  <td><?= esc ($usuario['apellido']) ?></td>
+                  <td><?= esc ($usuario['email']) ?></td>
+                  <td><?= esc ($usuario['telefono']) ?></td>
+                  <td><?= esc ($usuario['usuario']) ?></td>
+                  <td><?= esc ($usuario['pass']) ?></td>
+                  <td><?= esc ($usuario['perfil_id']) ?></td>
+                  <td><?= esc ($usuario['baja']) ?></td>
                   <td>
-                    <a href="<?php echo base_url() . '/editar/' . $datos->id_usuario ?>" class="btn btn-warning btn-sm">Editar</a>
+                    <a href="<?= base_url('/editar/' . esc($usuario['id_usuario'])) ?>" class="btn btn-warning btn-sm">Editar</a>
                   </td>
                   <td>
-                    <a href="<?php echo base_url('/eliminar/' . $datos->id_usuario); ?>" class="btn btn-danger btn-sm" onclick="return confirm('¿Estás seguro de eliminar este usuario?')">Eliminar</a>
+                    <a href="<?= base_url('/eliminar/' . esc($usuario['id_usuario'])) ?>" class="btn btn-danger btn-sm" onclick="return confirm('¿Estás seguro de eliminar este usuario?')">Eliminar</a>
                   </td>
                 </tr>
-            <?php
-              }
-            } else {
-              echo "<tr><td colspan='10'>No se encontraron usuarios</td></tr>";
-            }
-            ?>
+
+              <?php endforeach; ?>
+            <?php else : ?>
+              <tr>
+                <td colspan='10'>No se encontraron usuarios</td>
+              </tr>
+            <?php endif; ?>
+
           </tbody>
         </table>
       </div>
