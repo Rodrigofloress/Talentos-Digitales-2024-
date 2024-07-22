@@ -1,0 +1,564 @@
+CRITICAL - 2024-07-22 00:42:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/usuario/editar.php"
+[Method: GET, Route: editar/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/editar.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/editar', [], true)
+ 3 APPPATH\Controllers\CrudController.php(68): view('back/usuario/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:44:20 --> ErrorException: Attempt to read property "id_usuario" on array
+[Method: GET, Route: editar/1]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_usuario" on array', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(68): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:47:23 --> ErrorException: Attempt to read property "id_usuario" on array
+[Method: GET, Route: editar/1]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_usuario" on array', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:47:34 --> ErrorException: Attempt to read property "id_usuario" on array
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_usuario" on array', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:47:34 --> ErrorException: Attempt to read property "id_usuario" on array
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_usuario" on array', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:49:24 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:49:26 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:49:27 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:50:07 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:50:08 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:50:09 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:50:10 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:50:24 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:50:25 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:50:26 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: editar/2]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:51:07 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: editar/25]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('25')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 00:58:10 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: editar/1]
+in APPPATH\Views\back\usuario\actualizar.php on line 13.
+ 1 APPPATH\Views\back\usuario\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/actualizar', [], true)
+ 5 APPPATH\Controllers\CrudController.php(72): view('back/usuario/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 01:40:55 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: editar/27]
+in SYSTEMPATH\Database\BaseConnection.php on line 923.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '27')
+ 4 APPPATH\Controllers\CrudController.php(63): CodeIgniter\BaseModel->find('27')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('27')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 01:45:36 --> ErrorException: include(app/Model/usuario_model.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Model/usuario_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 01:45:40 --> ErrorException: include(app/Model/usuario_model.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Model/usuario_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 01:45:40 --> ErrorException: include(app/Model/usuario_model.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Model/usuario_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 01:59:13 --> ErrorException: include(app/Model/usuario_model.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Model/usuario_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 01:59:36 --> ErrorException: include(app/Model/usuario_model.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Model/usuario_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:06:04 --> ErrorException: include(app/Model/usuario_model.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Model/usuario_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:08:52 --> ErrorException: Undefined variable $sql
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sql', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:10:36 --> ErrorException: Undefined variable $data
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 121.
+ 1 APPPATH\Views\back\usuario\listado.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 121)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:10:40 --> ErrorException: Undefined variable $data
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 121.
+ 1 APPPATH\Views\back\usuario\listado.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 121)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:11:28 --> ErrorException: include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:11:29 --> ErrorException: include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:11:29 --> ErrorException: include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:12:51 --> ErrorException: include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:12:52 --> ErrorException: include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 120.
+ 1 APPPATH\Views\back\usuario\listado.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/Controller/crud_controller.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 120)
+ 2 APPPATH\Views\back\usuario\listado.php(120): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:42:56 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 32.
+ 1 APPPATH\Views\back\usuario\listado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:43:54 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 32.
+ 1 APPPATH\Views\back\usuario\listado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:44:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/usuario/crear.php"
+[Method: GET, Route: crear]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/crear.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/crear', [], true)
+ 3 APPPATH\Controllers\CrudController.php(36): view('back/usuario/crear')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:49:15 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: editar/27]
+in SYSTEMPATH\Database\BaseConnection.php on line 923.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '27')
+ 4 APPPATH\Controllers\CrudController.php(63): CodeIgniter\BaseModel->find('27')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->editar('27')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:49:34 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\crud_model"
+[Method: POST, Route: crear]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\crud_model')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\CrudController.php(45): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->formValidation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:51:15 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\crud_model"
+[Method: POST, Route: crear]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\crud_model')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\CrudController.php(45): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->formValidation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:51:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: eliminar/27]
+in SYSTEMPATH\Database\BaseConnection.php on line 923.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '27')
+ 4 APPPATH\Controllers\CrudController.php(123): CodeIgniter\BaseModel->find('27')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->eliminar('27')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 02:54:52 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\crud_model"
+[Method: POST, Route: crear]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\crud_model')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\CrudController.php(45): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->formValidation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

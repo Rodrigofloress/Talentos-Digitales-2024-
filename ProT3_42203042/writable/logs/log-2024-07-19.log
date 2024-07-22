@@ -1,0 +1,15 @@
+CRITICAL - 2024-07-19 00:41:03 --> ErrorException: include(config.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\front\principal.php on line 137.
+ 1 APPPATH\Views\front\principal.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(config.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\front\\principal.php', 137)
+ 2 APPPATH\Views\front\principal.php(137): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\front\\principal.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/principal', [], true)
+ 6 APPPATH\Controllers\Home.php(12): view('front/principal')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

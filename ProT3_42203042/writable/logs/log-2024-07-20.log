@@ -1,0 +1,1149 @@
+CRITICAL - 2024-07-20 01:31:51 --> ErrorException: Undefined variable $validation
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 23.
+ 1 APPPATH\Views\back\usuario\listado.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:02:10 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:04:23 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:07:33 --> ErrorException: Undefined variable $datosUSU
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosUSU', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:10:50 --> ErrorException: Undefined variable $datosUSU
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosUSU', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:10:57 --> ErrorException: Undefined variable $datosUSU
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosUSU', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:11:29 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:11:53 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:11:55 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:12:55 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:12:57 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:12:58 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:12:59 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:15:48 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 63.
+ 1 APPPATH\Views\back\usuario\listado.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:18:30 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 64.
+ 1 APPPATH\Views\back\usuario\listado.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:27:01 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:28:28 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:28:29 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:29:13 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:29:14 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:34:05 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:34:41 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:40:58 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:41:13 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:44:26 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:44:30 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:44:30 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:46:36 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:46:38 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:49:19 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:49:20 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:49:21 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:51:06 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:53:59 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:54:00 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:54:01 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:54:02 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:54:02 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:54:03 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:58:33 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:58:34 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:59:27 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:59:28 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:59:54 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 20.
+ 1 APPPATH\Views\back\usuario\listado.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 03:59:55 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 20.
+ 1 APPPATH\Views\back\usuario\listado.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 04:02:07 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 04:02:12 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 04:04:08 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 04:59:24 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:04:19 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:04:25 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:05:35 --> ErrorException: Undefined variable $datas
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datas', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:05:39 --> ErrorException: Undefined variable $datas
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datas', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:05:49 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:05:53 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:13:07 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:23:49 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 79.
+ 1 APPPATH\Views\back\usuario\listado.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:26:58 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:31:18 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:31:21 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:31:23 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 05:31:59 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 06:47:05 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:06:40 --> ErrorException: include(Views/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Views/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:07:28 --> ErrorException: include(Views/back/usuarios/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Views/back/usuarios/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:07:46 --> ErrorException: include(/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:08:50 --> ErrorException: include(usuario/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(usuario/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:09:32 --> ErrorException: include(backusuario/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(backusuario/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:09:33 --> ErrorException: include(backusuario/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(backusuario/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:09:48 --> ErrorException: include(back/usuario/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(back/usuario/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:12:38 --> ErrorException: include(../../back/usuario/conexion): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../back/usuario/conexion): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:13:00 --> ErrorException: include(../../back/usuario/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../back/usuario/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:13:01 --> ErrorException: include(../../back/usuario/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../back/usuario/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:14:38 --> ErrorException: include(../../back/usuario/conexion.php): Failed to open stream: No such file or directory
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 81.
+ 1 APPPATH\Views\back\usuario\listado.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../back/usuario/conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 81)
+ 2 APPPATH\Views\back\usuario\listado.php(81): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:19:37 --> ErrorException: Undefined variable $conexion
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 82.
+ 1 APPPATH\Views\back\usuario\listado.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conexion', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 82)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:20:36 --> TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\conexion.php on line 2.
+ 1 APPPATH\Views\back\usuario\conexion.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'flores_r', '')
+ 2 APPPATH\Views\back\usuario\listado.php(81): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\conexion.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:20:38 --> TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\conexion.php on line 2.
+ 1 APPPATH\Views\back\usuario\conexion.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'flores_r', '')
+ 2 APPPATH\Views\back\usuario\listado.php(81): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\conexion.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:20:40 --> TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\conexion.php on line 2.
+ 1 APPPATH\Views\back\usuario\conexion.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'flores_r', '')
+ 2 APPPATH\Views\back\usuario\listado.php(81): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\conexion.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 07:20:41 --> TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\conexion.php on line 2.
+ 1 APPPATH\Views\back\usuario\conexion.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'flores_r', '')
+ 2 APPPATH\Views\back\usuario\listado.php(81): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\conexion.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 6 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 14:39:51 --> ErrorException: Undefined variable $default
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 96.
+ 1 APPPATH\Views\back\usuario\listado.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 96)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 21:31:32 --> ErrorException: Undefined variable $conexion
+[Method: GET, Route: listado]
+in APPPATH\Views\back\usuario\listado.php on line 107.
+ 1 APPPATH\Views\back\usuario\listado.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conexion', 'C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php', 107)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_42203042\\app\\Views\\back\\usuario\\listado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('back/usuario/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
